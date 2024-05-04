@@ -1,9 +1,10 @@
 Main Home Page- Banner
-![Banner](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/d5f0b228-08da-4216-80a8-3e5698762f61)
+![Banner](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/9465ff9e-9ca1-4f26-b55d-227ae9701f0d)
 
 
 Main Home Page - Offers
-![HoemPage](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/5875d54f-ff05-4549-bcaf-1e63f54382f5)
+![HomePage](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/04e601ed-2468-4d41-8e2e-45e7923ec75d)
+
 ![Category](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/384b3f2b-c9ed-41fd-ae00-321038a491f2)
 
 
@@ -16,7 +17,7 @@ Empty Bag
 
 
 Add to Bag / Remove from Bag
-![Items_womenClothing](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/c9f4bdeb-14bc-4c97-8d34-3ef4effdff7e)
+![AddToBag](https://github.com/amishaphabba/MyntraFunctionalityClone/assets/75721242/02d79a80-9587-4887-8deb-3759096bf3ac)
 
 
 Bag and Bag Summary
