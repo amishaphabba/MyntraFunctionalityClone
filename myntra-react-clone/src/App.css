@@ -1,0 +1,383 @@
+.HeaderCss{
+    border-bottom: 0px;
+    box-shadow: 0px 2px 10px 1px lightgrey;
+    box-sizing: border-box;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    margin: 0px 20px 0px 0px;
+}
+
+.HeaderCss li a{
+    height: 77px;
+    display: flex;
+    align-items: center;
+}
+
+.HeaderCss li a:hover{
+    border-bottom: 2px solid rgb(230, 28, 62);
+}
+
+.HeaderCss form{
+   display:  flex;
+   align-items: center;
+   background-color: white;
+   border-radius: 5px;
+   border: 1px solid #dee2e6;;
+}
+
+.HeaderCss li a{
+    font-weight: 600;
+    color: black;
+    /* font-size: ; */
+}
+
+.HeaderCss form input{
+    border: none;
+}
+
+.HeaderCss form input:focus{
+    box-shadow: none;
+}
+
+.HeaderCss form span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37.6px;
+    width: 25px;
+    border-radius: 5px;
+    
+}
+
+.navigation{
+    display: flex;
+}
+
+.navigation-link  span{
+    font-size: x-large;
+}
+
+.navigation-link{
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.innerheader{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.innerheader form{
+    margin-bottom: 0px !important;
+}
+
+#bagBadge{
+    font-size: small;
+    top: 15%;
+}
+/* 1024 and down */
+@media only screen and (max-width: 1024px){
+    .innerheader ul{
+        width: 500px;
+        margin-right: 10px;
+    }
+
+    .innerheader ul li{
+       font-size: 15px;
+    }
+
+    .innerheader form{
+        width: 200px;
+    }
+}
+/* 768 and down */
+@media only screen and ( max-width: 768px){
+    .logo{
+        margin-right: 0px;
+    }
+
+    .innerheader{
+        padding: 0px;
+    }
+
+    .innerheader form{
+       display: none;
+    }
+
+    #bagBadge{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+
+    .innerheader{
+        padding: 0px;
+    }
+
+    .logo{
+       display: none;
+    }
+
+    .innerheader ul li:last-child, li:nth-child(4){
+        display: none;
+    }
+
+    .innerheader form{
+       display: none;
+    }
+
+    .innerheader ul{
+        width: 290px;
+        margin-right: 5px;
+        justify-content: left !important;
+    }
+
+    #bagBadge{
+        font-size: 10px;
+    } 
+}
+
+.bannerContainer{
+    margin-top: 40px;
+}
+
+.bannerContainer img{
+    width: 100%;
+}
+
+.categoryHeading{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Catalogue{
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+
+.Catalogue img{
+    margin-top: 30px;
+    height: 300px;
+}
+
+.categoryCatalogue{
+    justify-content: center;
+}
+
+/* @media screen and (max-width: 600px) {
+    .Catalogue img{
+        margin-top: 30px;
+        height: 200px;
+    }
+} */
+
+.Footercontainer{
+    background-color: rgba(0, 0, 0, 0.02);
+    padding: 0 15%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.Footercontainer h5{
+    font-size: small;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footerImages img{
+    width: 120px;
+}
+
+.keepintouch{
+    margin-top: 25px;
+}
+
+.keepintouch a{
+    margin: 0px 4px;
+}
+
+.card{
+    margin: 10px;
+}
+
+.cardContainer{
+    margin: 10px;
+    width: 220px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+}
+
+.cardContainer p{
+    margin-bottom: 5px;
+}
+
+.cardContainer h4{
+    font-size: 15px;
+}
+
+.cardImage{
+    height: 275px;
+    width: 210px;
+
+}
+
+.cardContainer .cardImage img{
+    height: 250px;
+    width: 210px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cardContainer .cardContent{
+    width: 220px;
+    padding: 10px;
+}
+
+.cardContainer button{
+    width: 95%;
+    height: 25px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    border: none;
+}
+
+.brandName, .brandTitle{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cardContainer .removeButton{
+    background-color: red;
+}
+
+.emptyBag{
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.emptyBag img{
+    height: 200px;
+}
+
+.emptyBag h4{
+    font-weight: bold;
+}
+
+.bagPage{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.bagItem{
+    margin: 10px;
+    width: 700px;
+}
+
+@media only screen and (max-width: 1024px){
+    .bagPage{
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+} 
+
+@media only screen and (max-width: 748px){
+    .bagPage{
+        max-width: 700px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bagItem{
+        width: 500px;
+    }
+}
+
+.summaryContainer{
+    margin: 10px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.summaryContainer div{
+    margin: 10px 0;
+}
+
+.summaryAmount{
+   float: right;
+}
+
+.summaryHeading{
+    color: rgba(77, 72, 72, 0.697);
+    font-weight: bold;
+    margin-top: 25px
+}
+
+.summaryContainer button{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(255, 63, 108);
+}
+
+.bagItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.077);
+}
+
+.bagCardImage img{
+    height: 100px;
+    margin: 10px;
+}
+
+.bagCardContent .brandName{
+    font-size: small;
+}
+
+.bagCardContent {
+    font-size: small;
+}
+
+.bagCardContent p, h4 {
+    margin: 0 !important;
+    margin-top: 7px;
+}
+
+.homeItemContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
